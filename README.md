@@ -2,8 +2,6 @@
 
 Transform your GitHub profile into a professional, editable CV with AI-powered enhancements and secure API handling.
 
-> **🎯 NEW**: Full-stack architecture with Express backend for secure API key management and enhanced features!
-
 ## 🚀 Quick Start
 
 ```bash
