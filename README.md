@@ -1,6 +1,6 @@
 # GitHub to CV
 
-**⚡ Now with Secure Backend!** - Transform your GitHub profile into a professional, editable CV with AI-powered enhancements and secure API handling.
+Transform your GitHub profile into a professional, editable CV with AI-powered enhancements and secure API handling.
 
 > **🎯 NEW**: Full-stack architecture with Express backend for secure API key management and enhanced features!
 
@@ -15,8 +15,6 @@ cd server && npm install && cd ..
 npm run dev:all
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
 **📚 Documentation:**
 
 - [Quick Start Guide](QUICKSTART.md) - Get running in 5 minutes
@@ -27,12 +25,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 Transform your GitHub profile into a professional, editable CV with LaTeX rendering. Now featuring a secure backend server that protects your API keys and enhances the application with AI-powered features.
 
-![GitHub to CV](https://via.placeholder.com/800x400?text=GitHub+to+CV+Generator)
-
 ## ✨ Features
 
-- 🔒 **Secure Backend**: API keys protected on server, not exposed in frontend
-- 🤖 **AI-Powered Enhancement**: Uses OpenRouter LLM for professional content generation
+- **AI-Powered Enhancement**: Uses OpenRouter LLM for professional content generation
 - **GitHub Profile Analysis**: Automatically fetch and analyze public repositories, languages, and contributions
 - **Intelligent Project Ranking**: Smart filtering and ranking with visual activity scores
 - **Multiple CV Templates**: Modern, ATS-friendly designs optimized for 2026
@@ -56,8 +51,6 @@ cd server && npm install && cd ..
 npm run dev:allelopment server
 npm run dev
 ```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 📖 Usage
 
