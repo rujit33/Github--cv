@@ -1,21 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4M6DPQ4F6"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Y4M6DPQ4F6"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-Y4M6DPQ4F6');
+      gtag("config", "G-Y4M6DPQ4F6");
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub to CV - Generate Professional CVs from GitHub</title>
-    <meta name="description" content="Transform your GitHub profile into a professional, editable CV with LaTeX rendering" />
+    <meta
+      name="description"
+      content="Transform your GitHub profile into a professional, editable CV with LaTeX rendering"
+    />
   </head>
+  <!-- Begin of Chaport Live Chat code -->
+  <script type="text/javascript">
+    (function (w, d, v3) {
+      w.chaportConfig = {
+        appId: "6a2fdf316be8f6fa8b41c875",
+      };
+
+      if (w.chaport) return;
+      v3 = w.chaport = {};
+      v3._q = [];
+      v3._l = {};
+      v3.q = function () {
+        v3._q.push(arguments);
+      };
+      v3.on = function (e, fn) {
+        if (!v3._l[e]) v3._l[e] = [];
+        v3._l[e].push(fn);
+      };
+      var s = d.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://app.chaport.com/javascripts/insert.js";
+      var ss = d.getElementsByTagName("script")[0];
+      ss.parentNode.insertBefore(s, ss);
+    })(window, document);
+  </script>
+  <!-- End of Chaport Live Chat code -->
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

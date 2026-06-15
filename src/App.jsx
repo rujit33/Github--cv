@@ -514,7 +514,7 @@ function App() {
 
       <footer className="text-center py-8 text-gray-500 text-sm">
         <p>
-          GitHub to CV Generator • Uses GitHub Public API • No backend required
+          GitHub to CV Generator • Uses GitHub Public API
         </p>
       </footer>
     </div>
